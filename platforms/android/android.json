@@ -1,0 +1,71 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "*-Info.plist": {
+        "parents": {
+          "NSCameraUsageDescription": [
+            {
+              "xml": "<string>need camera access to take pictures</string>",
+              "count": 1,
+              "mode": "merge",
+              "id": "config.xml"
+            }
+          ]
+        }
+      },
+      "res/xml/config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"OneSignalPush\"><param name=\"android-package\" value=\"com.onesignal.cordova.OneSignalPush\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "org.scriptwriter.wentonative"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "onesignal-cordova-plugin.OneSignalPlugin",
+      "file": "plugins/onesignal-cordova-plugin/www/OneSignalPlugin.js",
+      "pluginId": "onesignal-cordova-plugin",
+      "clobbers": [
+        "OneSignal"
+      ]
+    },
+    {
+      "id": "onesignal-cordova-plugin.NotificationReceived",
+      "file": "plugins/onesignal-cordova-plugin/www/NotificationReceived.js",
+      "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+      "id": "onesignal-cordova-plugin.NotificationOpened",
+      "file": "plugins/onesignal-cordova-plugin/www/NotificationOpened.js",
+      "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+      "id": "onesignal-cordova-plugin.InAppMessage",
+      "file": "plugins/onesignal-cordova-plugin/www/InAppMessage.js",
+      "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+      "id": "onesignal-cordova-plugin.Subscription",
+      "file": "plugins/onesignal-cordova-plugin/www/Subscription.js",
+      "pluginId": "onesignal-cordova-plugin"
+    }
+  ],
+  "plugin_metadata": {
+    "onesignal-cordova-plugin": "3.0.1"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-ios-camera-permissions": {
+      "CAMERA_USAGE_DESCRIPTION": "This app needs camera access",
+      "MICROPHONE_USAGE_DESCRIPTION": "This app needs microphone access",
+      "PHOTOLIBRARY_ADD_USAGE_DESCRIPTION": "This app needs write-access to photo library",
+      "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs read/write-access photo library access",
+      "PACKAGE_NAME": "org.scriptwriter.wentonative"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "mimozagroup.socjsc.com.OneSignalNotificationServiceExtension"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "mimozagroup.socjsc.com.OneSignalNotificationServiceExtension"
+    }
+  },
+  "dependent_plugins": {}
+}
