@@ -15,6 +15,7 @@
   "devDependencies": {
     "cordova-android": "^10.1.1",
     "cordova-ios": "^6.2.0",
+    "cordova-plugin-splashscreen": "^6.0.0",
     "cordova-plugin-statusbar": "^3.0.0"
   },
   "cordova": {
@@ -29,7 +30,8 @@
         "PHOTOLIBRARY_USAGE_DESCRIPTION": "This app needs read/write-access photo library access"
       },
       "cordova-plugin-statusbar": {},
-      "onesignal-cordova-plugin": {}
+      "onesignal-cordova-plugin": {},
+      "cordova-plugin-splashscreen": {}
     }
   },
   "dependencies": {

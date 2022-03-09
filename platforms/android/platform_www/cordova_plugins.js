@@ -27,9 +27,18 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
       "id": "onesignal-cordova-plugin.Subscription",
       "file": "plugins/onesignal-cordova-plugin/www/Subscription.js",
       "pluginId": "onesignal-cordova-plugin"
+    },
+    {
+      "id": "cordova-plugin-splashscreen.SplashScreen",
+      "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+      "pluginId": "cordova-plugin-splashscreen",
+      "clobbers": [
+        "navigator.splashscreen"
+      ]
     }
   ];
   module.exports.metadata = {
-    "onesignal-cordova-plugin": "3.0.1"
+    "onesignal-cordova-plugin": "3.0.1",
+    "cordova-plugin-splashscreen": "6.0.0"
   };
 });

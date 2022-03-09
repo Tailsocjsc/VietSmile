@@ -19,6 +19,9 @@
     },
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "mimozagroup.socjsc.com.OneSignalNotificationServiceExtension"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "mimozagroup.socjsc.com.OneSignalNotificationServiceExtension"
     }
   },
   "dependent_plugins": {}

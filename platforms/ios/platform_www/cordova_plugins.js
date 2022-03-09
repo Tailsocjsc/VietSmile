@@ -40,6 +40,7 @@ cordova.define('cordova/plugin_list', function(require, exports, module) {
   module.exports.metadata = {
     "cordova-plugin-ios-camera-permissions": "1.2.0",
     "cordova-plugin-statusbar": "3.0.0",
-    "onesignal-cordova-plugin": "3.0.1"
+    "onesignal-cordova-plugin": "3.0.1",
+    "cordova-plugin-splashscreen": "6.0.0"
   };
 });

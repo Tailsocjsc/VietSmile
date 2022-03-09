@@ -98,6 +98,9 @@
     },
     "onesignal-cordova-plugin": {
       "PACKAGE_NAME": "mimozagroup.socjsc.com.OneSignalNotificationServiceExtension"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "mimozagroup.socjsc.com.OneSignalNotificationServiceExtension"
     }
   },
   "dependent_plugins": {},
@@ -142,6 +145,7 @@
   "plugin_metadata": {
     "cordova-plugin-ios-camera-permissions": "1.2.0",
     "cordova-plugin-statusbar": "3.0.0",
-    "onesignal-cordova-plugin": "3.0.1"
+    "onesignal-cordova-plugin": "3.0.1",
+    "cordova-plugin-splashscreen": "6.0.0"
   }
 }

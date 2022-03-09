@@ -22,7 +22,6 @@
     <allow-intent href="geo:*" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <!-- <gap:plugin name="com.phonegap.plugin.statusbar" /> -->
     <preference name="loglevel" value="DEBUG" />
     <preference name="BackupWebStorage" value="local" />
     <preference name="DisallowOverscroll" value="true" />
@@ -53,4 +52,24 @@
     <feature name="OneSignalPush">
         <param name="android-package" value="com.onesignal.cordova.OneSignalPush" />
     </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+        <preference name="ShowSplashScreenSpinner" value="false"/>
+    </feature>
+    <platform name="android">
+    <!-- <splash src="../drawable-port-hdpi/screen.jpg" density="land-hdpi" />
+    <splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi" />
+    <splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi" />
+    <splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi" /> -->
+    <!-- <splash src="res/screen/android/splash-land-xxhdpi.png" density="land-xxhdpi" />
+    <splash src="res/screen/android/splash-land-xxxhdpi.png" density="land-xxxhdpi" /> -->
+
+    <splash src="../drawable-port-hdpi/screen.jpg" density="port-hdpi" />
+    <splash src="../drawable-port-ldpi/screen.jpg" density="port-ldpi" />
+    <splash src="../drawable-port-mdpi/screen.jpg" density="port-mdpi" />
+    <splash src="../drawable-port-xhdpi/screen.jpg" density="port-xhdpi" />
+    <splash src="../drawable-land-xxhdpi/screen.png" density="port-xxhdpi" />
+    <splash src="../drawable-port-xxxhdpi/screen.jpg" density="port-xxxhdpi" /> 
+</platform>
 </widget>
