@@ -180,9 +180,17 @@ task cdvPrintProps {
 }
 
 android {
+    signingConfigs {
+        debug {
+            storeFile file('/Users/ChiBao2109/Desktop/keystore/tintiengviet.keystore')
+            storePassword 'com.socjsc.tintiengviet'
+            keyAlias 'com.socjsc.tintiengviet'
+            keyPassword 'com.socjsc.tintiengviet'
+        }
+    }
     defaultConfig {
         versionCode cdvVersionCode ?: new BigInteger('' + privateHelpers.extractIntFromManifest('versionCode'))
-        applicationId 'com.socjsc.vietsmile'
+        applicationId 'com.socjsc.tintiengviet'
 
         minSdkVersion cordovaConfig.MIN_SDK_VERSION
         if (cordovaConfig.MAX_SDK_VERSION != null) {

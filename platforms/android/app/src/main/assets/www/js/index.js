@@ -23,8 +23,8 @@ document.addEventListener('deviceready', onDeviceReady, false);
 
 function onDeviceReady() {
   // Cordova is now initialized. Have fun!
-  window.location = 'https://vietsmile.com.vn/web/posts/';
-  window.plugins.OneSignal.setAppId('d87a0ce5-bdd8-4137-9aa1-8a6ed032f5e6');
+  window.location = 'https://tintiengviet.com/';
+  window.plugins.OneSignal.setAppId('');
   window.plugins.OneSignal.setNotificationOpenedHandler(function (jsonData) {
     // window.location = jsonData.notification.rawPayload.custom.a.link;
     // alert(jsonData.notification.rawPayload.custom);
